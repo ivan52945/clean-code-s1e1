@@ -70,7 +70,7 @@ var addTask = function () {
     bindTaskEvents(listItem, taskCompleted);
 
     taskInput.value = "";
-
+    tBtn
 }
 
 //Edit an existing task.
@@ -85,7 +85,7 @@ var editTask = function () {
     var editInput = listItem.querySelector('input[type=text]');
     var label = listItem.querySelector("label");
     var editBtn = listItem.querySelector(".edit");
-    var containsClass = listItem.classList.contains("editMode");
+    var containsClass = listItem.classList.contains("edit-mode");
     //If class of the parent is .editmode
     if (containsClass) {
 
